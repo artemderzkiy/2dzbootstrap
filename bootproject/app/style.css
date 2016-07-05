@@ -1,3 +1,25 @@
 .fix-div {
 	padding-top: 50px;
 }
+.nav-width, .btn-group-width {
+	display:inline-block;
+	width:100%;
+}
+
+.nav-width li, .btn-group-width button {
+	float:left;
+	
+	text-align:center;
+} 
+.nav-width li{
+width:20%;
+}
+.btn-group-width button {
+		width:25%;
+	}
+
+	.zag-report {
+		color: #337ab7;
+		font-size:17px;
+		font-weight:700;
+}
