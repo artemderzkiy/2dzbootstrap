@@ -1,25 +1,79 @@
+.line {
+	width:100%;
+	margin:20px auto;	
+	border-bottom:1px solid #d5d5d5;
+}
+
+
 .fix-div {
 	padding-top: 50px;
 }
-.nav-width, .btn-group-width {
+
+.btn-group-width {
 	display:inline-block;
 	width:100%;
 }
 
-.nav-width li, .btn-group-width button {
-	float:left;
-	
-	text-align:center;
-} 
-.nav-width li{
-width:20%;
+
+.glyps-items {
+	display: flex;
+	justify-content: space-around;
 }
 .btn-group-width button {
 		width:25%;
+		float:left;
+		text-align:center;
 	}
 
 	.zag-report {
 		color: #337ab7;
 		font-size:17px;
 		font-weight:700;
+}
+
+.circle-list{
+	display: flex;
+	justify-content:  space-around;
+	padding:0;
+	margin:0;
+	text-align:center;
+	padding:0 15px;
+}
+
+.circle-item {
+
+	height:80px;
+	width:80px;
+	border-radius:50%;
+	background-color:#f5f5f5;
+	}
+
+.circle-item:hover {
+	background-color:#d2d2d2;
+	}
+
+.circle-p {
+	vertical-align:middle;
+	line-height:80px;
+}
+
+footer {
+	margin-top:20px;
+	background-color:#f5f5f5;
+	text-align:center;
+}
+
+footer p {
+	margin:20px 0;
+}
+
+@media screen and (max-width: 770px) {
+	.glyps-items {
+		flex-direction:column;
+		align-items:  center;
+		}
+	.glyps-item
+	{
+		margin: 20px 20px;
+	}
 }

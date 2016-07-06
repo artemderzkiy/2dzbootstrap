@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bootstrap</title>
 	<!-- Latest compiled and minified CSS -->
 	<!-- Latest compiled and minified CSS -->
@@ -46,7 +47,8 @@
 					<h3>
 						<span class="glyphicon glyphicon-briefcase"></span> Toolbox
 					</h3>
-					<ul class="nav nav-pills nav-stacked">
+					<div class="line border"></div>
+					<ul class="nav nav-pills nav-stacked border">
 						<li role="presentation"><a href="#"><span class="glyphicon glyphicon-flash"></span> Alerts</a></li>
 						<li role="presentation"><a href="#"><span class="glyphicon glyphicon-link"></span> Links</a></li>
 						<li role="presentation"><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Reports</a></li>
@@ -61,12 +63,13 @@
 						<h3>
 							<span class="glyphicon glyphicon-dashboard"></span> Dashboard
 						</h3>
-
+						<div class="line border"></div>
 						<div class="col-md-7 col-sm-12 col-xs-12">
 
 							<div class="well">Inbox Messages
 								<span class="badge" style="float:right">3</span>
 							</div>
+							<div class="line border"></div>
 
 							<div class="panel panel-default">
 								<div class="panel-heading"><h4>Processing status</h4></div>
@@ -94,7 +97,7 @@
 						</div>
 
 						<div class="col-md-5 col-sm-12 col-xs-12">
-
+<!--
 							<ul class="nav nav-width">
 								<li><a href="#"><span class="glyphicon glyphicon-cog"></span></a></li>
 								<li><a href="#"><span class="glyphicon glyphicon-heart"></span></a></li>
@@ -102,22 +105,171 @@
 								<li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
 								<li><a href="#"><span class="glyphicon glyphicon-plus-sign"></span></a></li>
 							</ul>
-							<p>Повседневная практика показывает, что сложившаяся структура организации позволяет оценить значение соответствующий условий активизации. Идейные соображения высшего порядка, а также консультация с широким активом позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. </p>
+						-->
+						<div class="glyps-items">
+							<div class="glyps-item"><a href="#"><span class="glyphicon glyphicon-cog"></span></a></div>
+							<div class="glyps-item"><a href="#"><span class="glyphicon glyphicon-heart"></span></a></div>
+							<div class="glyps-item"><a href="#"><span class="glyphicon glyphicon-comment"></span><span class="badge">3</span></a></div>
+							<div class="glyps-item"><a href="#"><span class="glyphicon glyphicon-user"></span></a></div>
+							<div class="glyps-item"><a href="#"><span class="glyphicon glyphicon-plus-sign"></span></a></div>
+						</div>
+						<div class="line border"></div>
+
+						<div>
+							<p >Повседневная практика показывает, что сложившаяся структура организации позволяет оценить значение соответствующий условий активизации. Идейные соображения высшего порядка, а также консультация с широким активом позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. </p>
 							<p>Задача организации, в особенности же укрепление и развитие структуры требуют определения и уточнения системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенности же сложившаяся структура организации требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. </p>
-							<div class="btn-group btn-group-width">
-								<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-plus"></span><p>Service</p></button>
-								<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-cloud"></span><p>Cloud</p></button>
-								<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-cog"></span><p>Tools</p></button>
-								<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-question-sign"></span><p>Help</p></button>
-							</div>
+						</div>
+						<div class="line border"></div>
+						<div class="btn-group btn-group-width">
+							<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-plus"></span><p>Service</p></button>
+							<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-cloud"></span><p>Cloud</p></button>
+							<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-cog"></span><p>Tools</p></button>
+							<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-question-sign"></span><p>Help</p></button>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<h3 class="zag-report"><span class="glyphicon glyphicon-list-alt"></span> Reports</h3>
-			</div>	
 		</div>
-	</section>
+		
+		<div class="row">
+			<div class="line border"></div>
+			<h3 class="zag-report"><span class="glyphicon glyphicon-list-alt"></span> Reports</h3>
+			<div class="line border"></div>
+			<div class="col-md-8 col-sm-12 col-xs-12">
+				<table class="table table-striped">
+					<thead>
+						<tr>
+							<th>Visits</th>
+							<th>ROI</th>
+							<th>Sourse</th>
+							<th>Descriptions and notes</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>45</td>
+							<td>2%</td>
+							<td>Direct</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada lacus elementum faucibus commodo. Nulla ac vehicula nisi, eget maximus elit. </td>
+						</tr>
+						<tr>
+							<td>50</td>
+							<td>3%</td>
+							<td>Regular</td>
+							<td> Ut tincidunt metus vel mi euismod, in malesuada tellus ultricies. Sed nec nisi eget magna pretium efficitur. Morbi tristique ligula eget metus rutrum blandit quis eget lacus.</td>
+						</tr>
+						<tr>
+							<td>200</td>
+							<td>5%</td>
+							<td>Type</td>
+							<td>Nulla gravida mi at augue pharetra, pellentesque consectetur lectus rutrum. Aenean sapien nisl, dapibus at vulputate ac, molestie id quam.</td>
+						</tr>
+						<tr>
+							<td>600</td>
+							<td>8%</td>
+							<td>...</td>
+							<td>Sed justo tellus, commodo a nunc et, congue condimentum enim. Pellentesque eu tortor eget turpis efficitur dignissim at vel mauris.</td>
+
+						</tr>
+						<tr>
+							<td>800</td>
+							<td>85%</td>
+							<td>...</td>
+							<td>Sed dapibus nisi quis magna fermentum, eu blandit nisl facilisis. Duis sem felis, bibendum ut dictum nec, auctor eu justo.</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="line border"></div>
+				<ul class="nav nav-tabs" role="tablist">   
+					<li role="presentation" class="active"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+					<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+					<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+				</ul>
+				<div class="tab-content">
+					<div  role="tabpanel" id="profile" class="tab-pane fade in active">
+						<h3><span class="glyphicon glyphicon-user"></span> </h3>
+						<p>Maecenas nec tincidunt felis. Sed eget turpis sit amet augue pretium consequat. Nullam dictum orci.</p>
+					</div>
+					<div role="tabpanel" id="messages" class="tab-pane fade">
+						<h3>Messages</h3>
+						<p>Mauris vulputate nulla in bibendum faucibus. Fusce rhoncus tortor quis lacus pharetra, eget ultrices lectus mattis.</p>
+					</div>
+					<div role="tabpanel" id="settings" class="tab-pane fade">
+						<h3>Settings</h3>
+						<p>Suspendisse ac tristique lacus. Sed fringilla, metus id commodo volutpat, ex urna bibendum turpis, at elementum nisl ex a velit. Suspendisse tristique sem non cursus elementum. Phasellus ornare massa mollis pulvinar porta. Mauris suscipit nisl fringilla porta tempus. Fusce felis lorem, pellentesque quis aliquam et, faucibus vehicula lacus. Aenean vulputate posuere leo, a placerat dui semper a. Nam tempus sem quis dapibus eleifend. Cras pellentesque tristique ex et dapibus. Mauris egestas mauris dolor, sed aliquam libero aliquam et. Vestibulum cursus sagittis odio, ut scelerisque nisi finibus eu. Suspendisse in urna ut ante eleifend ultricies. Pellentesque blandit lectus in sapien cursus, nec vulputate purus efficitur. Maecenas neque mauris, hendrerit eget nisi vitae, sodales ultrices mauris. Morbi sem orci, imperdiet et vulputate ut, dictum nec enim. Ut ut sagittis diam.</p>
+					</div>
+				</div>
+				<div class="line border"></div>
+				<div class="panel panel-default">
+					<div class="panel-heading"><h4>New Requests</h4></div>
+					<div class="panel-body">
+						<div class="list-group">
+							<a href="#" class="list-group-item active">Hosting virtual</a>
+							<a href="#" class="list-group-item">Dedicadet server</a>
+							<a href="#" class="list-group-item">RHEL 6 install</a>
+						</div>
+					</div>
+				</div>
+				<div class="line border"></div>
+				<div class="alert alert-info" role="alert">Please remember to logout</div>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<ul class="nav nav-pills nav-stacked">
+					<li role="presentation"><a href="#"><span class="glyphicon glyphicon-th-list"></span> Layouts and Templates</a></li>
+					<li role="presentation"><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Toolbox</a></li>
+					<li role="presentation"><a href="#"><span class="glyphicon glyphicon-link"></span> Widgets</a></li>
+					<li role="presentation"><a href="#"><span class="glyphicon glyphicon-list-alt"></span> Reports</a></li>
+					<li role="presentation"><a href="#"><span class="glyphicon glyphicon-book"></span> Pages</a></li>
+					<li role="presentation"><a href="#"><span class="glyphicon glyphicon-star"></span> Social-Media</a></li>
+				</ul> 
+				<div class="line border"></div>
+				<div class="panel panel-default">
+					<div class="panel-heading"><h4>Submit Request</h4><span class="glyphicon glyphicon-wrench"></span></div>
+					<div class="panel-body">
+						<form>
+							<div class="form-group">
+								<label for="exampleInputName">Name</label>
+								<input  class="form-control" id="exampleInputName" placeholder="Enter Name">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputPassword">Password</label>
+								<input type="password" class="form-control" id="exampleInputPassword" placeholder="Password">
+							</div>
+							<div class="form-group">
+								<label for="exampleInputDesc">Details</label>
+								<textarea class="form-control" id="exampleInputDesc" rows="3"></textarea>
+							</div>
+							<div class="form-group">
+								<label for="exampleInputSel">Select</label>
+								<select class="form-control" id="exampleInputSel">
+									<option>General Question</option>
+									<option>Non General Question</option>
+								</select>
+							</div>
+
+							<button type="submit" class="btn btn-info">Post</button>
+						</form>
+
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading"><h4>Engagement</h4></div>
+					<div class="panel-body">
+						<div class="circle-list">
+							<div class="circle-item"><p class="circle-p">80x80</p></div>
+							<div class="circle-item"><p class="circle-p">80x80</p></div>
+							<div class="circle-item"><p class="circle-p">80x80</p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</section>
+<footer >
+	<div class="container">
+		<p>This Bootstrap 3 dashboard layout is compliments of <a href="#">example</a></p>
+	</div>
+</footer> 
 </body>
 </html>
